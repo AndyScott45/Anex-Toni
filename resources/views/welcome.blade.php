@@ -34,7 +34,7 @@
      </section>
     
     <!-- ... rest of the HTML content ... -->
-
+         <!-- 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 -->
     <footer>
         <p>&copy; <?php echo date('Y'); ?> Your Website. All rights reserved.</p>
     </footer>
