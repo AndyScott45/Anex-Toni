@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+header {
+    background-color:black;
+    padding: 0.5rem 0.5rem; /* adjust padding for height reduction */
+}
+
+.nav-list{
+    display: table;
+    table-layout: fixed;
+    width:100%;
+    text-align:center;
+}
+
+.nav-list a {
+    display: table-cell;
+   
+    background-color: yellow; /* Background color */
+    color: black; /* Text color */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%; /* Each cell takes 100% width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    padding: 10px 0; /* Adjust padding to control the height of the cells */
+    
+}
+
+
+.nav-list a:hover {
+    background-color: #e74c3c; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Styles for the profile section */
+.profile-section {
+    background-color:#050542;
+    padding: 0rem 0;
+}
+
+/* Styles for the profile section */
+.profile-section {
+    background-color:#050542;
+    padding: 0rem 0;
+}
+
+.profile-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Align items vertically and center them */
+}
+
+.profile-image {
+    flex: 0 0 auto; /* Fixed size for image on large screens */
+    margin-right: 2rem; /* Add some spacing between image and description */
+    margin-bottom: 1rem; /* Add spacing between image and content on small screens */
+}
+
+.profile-image img {
+    width: 450px; /* set the width */
+    height: 700px; /* maintain the height */
+    display: block; /* Remove any remaining space below the image */
+    margin: 0 auto; /* Center the image */
+}
+
+.profile-description {
+    flex: 1; /* Take the remaining space on large screens */
+    text-align: center; /* Center text on small screens */
+}
+
+/* adds the following functionality to the h2 element */
+.profile-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: brown;
+    text-decoration: underline;
+}
+
+/* adds the following functionality to the p element */
+.profile-description p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e5e384;
+}
+
+
